@@ -212,3 +212,25 @@ You should be able to run the `HelloWorld` program successfully if you have ever
 
 17.) Visit the repository through [Github](https://github.com/jtravan3/git-practice) and open a pull request for merging your feature branch into
 the `master` branch. From here, I'll review the pull request to make sure it looks great and then merge it in. You'll be added to the history of the `CHANGELOG.md`!
+
+## LICENSE
+
+GNU General Public License v3.0, see [LICENSE](https://github.com/jtravan3/git-practice/blob/master/LICENSE) for details.
+
+## Resources
+
+List of resources to help with learning git and IntelliJ
+
+### Git/Github
+
+* [Pro Git](https://git-scm.com/book/en/v2)
+* [Github Git Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [Roger Dudler Git Guide](https://rogerdudler.github.io/git-guide/)
+* [try.github.io](https://try.github.io/)
+
+### IntelliJ
+
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+* [IntelliJ Tutorials](https://www.jetbrains.com/idea/documentation/)
+* [IntelliJ IDE Features Trainer Plugin](https://blog.jetbrains.com/idea/2016/12/ide-features-trainer/)
+* [Jetbrains Academy](https://www.jetbrains.com/academy/)
