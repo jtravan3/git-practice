@@ -29,9 +29,14 @@ If you're interested in getting started with `git`, follow the instructions belo
 
 ### Git Command Line
 
-1.) First you will need the `git` command line tools. Download `git` located at [https://git-scm.com/](https://git-scm.com/).
+1.) First you will need the `git` command line tools. Download `git` located at [https://git-scm.com/](https://git-scm.com/) 
+or if you have a Mac you can use `brew`.
 
-2.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
+```bash
+brew install git
+```
+
+2.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/) or if you have a Mac you can use `brew`.
 
 ```bash
 brew install maven
@@ -57,14 +62,14 @@ You should see a success if everything is set up correctly. You should be able t
 
 6.) Navigate to `pom.xml` and increase the minor fix version by one. See the before and after example below.
 
-Before
+**Before**
 ```xml
 <groupId>edu.citadel</groupId>
 <artifactId>git-practice</artifactId>
 <version>1.0.1</version>
 ```
 
-After
+**After**
 ```xml
 <groupId>edu.citadel</groupId>
 <artifactId>git-practice</artifactId>
@@ -110,8 +115,8 @@ the `master` branch. From here, I'll review the pull request to make sure it loo
 
 ### Git GUI (IntelliJ)
 
-1.) While you'll be using IntelliJ for your git GUI, you'll still need the git command line tools so that IntelliJ can leverage them. Download `git` located at [https://git-scm.com/](https://git-scm.com/).
-If you have a Mac you can use `brew`.
+1.) While you'll be using IntelliJ for your git GUI, you'll still need the git command line tools so that IntelliJ can leverage them. Download `git` located at [https://git-scm.com/](https://git-scm.com/) 
+or if you have a Mac you can use `brew`.
 
 ```bash
 brew install git
@@ -150,14 +155,14 @@ You should see a success if everything is set up correctly. You should be able t
 
 8.) Navigate to `pom.xml` and increase the minor fix version by one. See the before and after example below.
 
-Before
+**Before**
 ```xml
 <groupId>edu.citadel</groupId>
 <artifactId>git-practice</artifactId>
 <version>1.0.1</version>
 ```
 
-After
+**After**
 ```xml
 <groupId>edu.citadel</groupId>
 <artifactId>git-practice</artifactId>
