@@ -43,6 +43,11 @@ brew install maven
 brew install java
 ```
 
+IntelliJ comes packaged with Maven so you want to make sure that the correct version of maven is being used. I recommend opening `Preferences` and searching
+for `Maven`. You should see the following screen. Make sure that the selected `maven` executable is the one installed on your system and not the bundled version.
+
+![Maven Version](images/maven_version.png)
+
 3.) Clone down the repository from Github
 
 ```bash
@@ -127,7 +132,7 @@ brew install git
 3.) Once you have both installed you'll need to make sure that IntelliJ has them configured. If you used `brew` then it will probably
 be configured automatically. If not you'll need to open `Preferences` and search for `Git`. Then make sure the `git` executable is added correctly
 
-![Branch Menu](images/git_preferences.png)
+![Git Preferences](images/git_preferences.png)
 
 4.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
 
@@ -136,14 +141,19 @@ brew install maven
 brew install java
 ```
 
+IntelliJ comes packaged with Maven so you want to make sure that the correct version of maven is being used. I recommend opening `Preferences` and searching
+for `Maven`. You should see the following screen. Make sure that the selected `maven` executable is the one installed on your system and not the bundled version.
+
+![Maven Version](images/maven_version.png)
+
 5.) Clone down the repository from Github. The easiest way is to open an IntelliJ window and select `File -> New -> Project from Version Control`.
 Paste the Github URL and IntelliJ does the rest.
 
-![Branch Menu](images/new_project.png)
+![New Project](images/new_project.png)
 
 6.) Build the project by clicking the Maven window on the far right of your editor. You should see the following image. Click `clean` and then `install` to ensure the project builds successfully.
 
-![Branch Menu](images/maven_build.png)
+![Maven Build](images/maven_build.png)
 
 You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
 
