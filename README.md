@@ -55,7 +55,7 @@ git clone git@git.github.com:jtravan3/git-practice.git
 mvn clean install
 ```
 
-You should see a success if everything is set up correctly. You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
+You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
 
 5.) Now that you have your environment setup we'll want to make some changes to some files. For this repository you're going to make two changes. One will be a version change in
 `pom.xml` and the second will be an entry in `CHANGELOG.md`.
@@ -136,19 +136,16 @@ brew install maven
 brew install java
 ```
 
-5.) Clone down the repository from Github
+5.) Clone down the repository from Github. The easiest way is to open an IntelliJ window and select `File -> New -> Project from Version Control`.
+Paste the Github URL and IntelliJ does the rest.
 
-```bash
-git clone git@git.github.com:jtravan3/git-practice.git
-```
+![Branch Menu](images/new_project.png)
 
-6.) Build the project
+6.) Build the project by clicking the Maven window on the far right of your editor. You should see the following image. Click `clean` and then `install` to ensure the project builds successfully.
 
-```bash
-mvn clean install
-```
+![Branch Menu](images/maven_build.png)
 
-You should see a success if everything is set up correctly. You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
+You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
 
 7.) Now that you have your environment setup we'll want to make some changes to some files. For this repository you're going to make two changes. One will be a version change in
 `pom.xml` and the second will be an entry in `CHANGELOG.md`.
