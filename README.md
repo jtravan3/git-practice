@@ -110,22 +110,34 @@ the `master` branch. From here, I'll review the pull request to make sure it loo
 
 ### Git GUI (IntelliJ)
 
-1.) First you will need the IntelliJ IDE located at [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/). Download and install.
+1.) While you'll be using IntelliJ for your git GUI, you'll still need the git command line tools so that IntelliJ can leverage them. Download `git` located at [https://git-scm.com/](https://git-scm.com/).
+If you have a Mac you can use `brew`.
 
-2.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
+```bash
+brew install git
+```
+
+2.) Then you will need the IntelliJ IDE located at [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/). Download and install.
+
+3.) Once you have both installed you'll need to make sure that IntelliJ has them configured. If you used `brew` then it will probably
+be configured automatically. If not you'll need to open `Preferences` and search for `Git`. Then make sure the `git` executable is added correctly
+
+![Branch Menu](images/git_preferences.png)
+
+4.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
 
 ```bash
 brew install maven
 brew install java
 ```
 
-3.) Clone down the repository from Github
+5.) Clone down the repository from Github
 
 ```bash
 git clone git@git.github.com:jtravan3/git-practice.git
 ```
 
-4.) Build the project
+6.) Build the project
 
 ```bash
 mvn clean install
@@ -133,10 +145,10 @@ mvn clean install
 
 You should see a success if everything is set up correctly. You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
 
-5.) Now that you have your environment setup we'll want to make some changes to some files. For this repository you're going to make two changes. One will be a version change in
+7.) Now that you have your environment setup we'll want to make some changes to some files. For this repository you're going to make two changes. One will be a version change in
 `pom.xml` and the second will be an entry in `CHANGELOG.md`.
 
-6.) Navigate to `pom.xml` and increase the minor fix version by one. See the before and after example below.
+8.) Navigate to `pom.xml` and increase the minor fix version by one. See the before and after example below.
 
 Before
 ```xml
@@ -152,7 +164,7 @@ After
 <version>1.0.2</version>
 ```
 
-7.) Next navigate to `CHANGELOG.md` and add an entry for yourself. See the example below
+9.) Next navigate to `CHANGELOG.md` and add an entry for yourself. See the example below
 
 ```markdown
 ## [1.0.1] - 2019/12/11
@@ -162,29 +174,29 @@ After
 - John Ravan updated the version to 1.0.1
 ```
 
-8.) After completing the file edits within your repository create a branch for the change
+10.) After completing the file edits within your repository create a branch for the change.
 
-```bash
-git checkout -b feature/{githubUsername}
-```
+11.) First open the branches menu by navigating to the top menu `VCS -> Git -> Branches`
 
-9.) Add all of your changed files to the newly created branch
+![Branch Menu](images/branch_menu.png)
 
-```bash
-git add .
-```
+12.) Then open to view all available branches so that you can create a new one
 
-10.) Commit all of the added files to your branch with a message
+![View All Branches](images/view_all_branches.png)
 
-```bash
-git commit -m "I added myself to the CHANGELOG.md"
-```
+13.) Create a new branch with your Github username
 
-11.) Now that all of your changes have been commit to the new branch, push the new branch to the remote repository.
+![Create New Branch](images/create_new_branch.png)
 
-```bash
-git push origin feature/{githubUsername}
-```
+14.) Add all of your changed files to the newly created branch by navigating to `VCS -> Commit`
 
-12.) Visit the repository through [Github](https://github.com/jtravan3/git-practice) and open a pull request for merging your feature branch into
+![Commit Dialog](images/commit_dialog.png)
+
+15.) Simply add a commit message and click `Commit` at the bottom right.
+
+16.) Now that all of your changes have been commit to the new branch, push the new branch to the remote repository. Navigate to `VCS -> Git -> Push` to find the push dialog
+
+![Push Dialog](images/push_dialog.png)
+
+17.) Visit the repository through [Github](https://github.com/jtravan3/git-practice) and open a pull request for merging your feature branch into
 the `master` branch. From here, I'll review the pull request to make sure it looks great and then merge it in. You'll be added to the history of the `CHANGELOG.md`!
