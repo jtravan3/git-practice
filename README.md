@@ -43,6 +43,12 @@ brew install maven
 brew install java
 ```
 
+If you don't have the `brew` capability you'll have to install Maven directly. Navigate to [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
+and download `apache-maven-3.6.3-bin.zip`. After you have downloaded, place in a location on your computer that will not change (e.g. **NOT** your Downloads folder).
+Then navigate to [https://maven.apache.org/install.html](https://maven.apache.org/install.html) and follow the instructions.
+
+> Make sure you have a JAVA_HOME environment variable, a MAVEN_HOME environment variable, and both added to your PATH
+
 IntelliJ comes packaged with Maven so you want to make sure that the correct version of maven is being used. I recommend opening `Preferences` and searching
 for `Maven`. You should see the following screen. Make sure that the selected `maven` executable is the one installed on your system and not the bundled version.
 
