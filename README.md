@@ -12,7 +12,7 @@ This repository is designed so that anyone who is wanting to learn git or practi
 2. Make changes to files in the repository
 3. Commit those changes to a new branch named `feature/{githubUsername}`
 4. Push the branch to the repository
-5. Open a pull request on [Github](https://github.com/jtravan3/git-practice)
+5. Open a pull request on [Github](https://github.com/CitadelCS/git-practice)
 
 ## IDE (IntelliJ)
 
@@ -54,7 +54,7 @@ for `Maven`. You should see the following screen. Make sure that the selected `m
 
 ![Maven Version](images/maven_version.png)
 
-3.) Now that you have your environment setup you need to create a fork of the repository so that you can add changes. First navigate to [https://github.com/jtravan3/git-practice](https://github.com/jtravan3/git-practice)
+3.) Now that you have your environment setup you need to create a fork of the repository so that you can add changes. First navigate to [https://github.com/CitadelCS/git-practice](https://github.com/CitadelCS/git-practice)
 and click `Fork` in the top-right of the page. This will create a copy of the repository in your Github account. Then clone down the repository from Github
 
 ```bash
