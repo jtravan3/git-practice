@@ -8,11 +8,11 @@ This repository contains the needed base code and instructions for someone who i
 
 This repository is designed so that anyone who is wanting to learn git or practice their git skills can do the following:
 
-1.) Clone the repository to their local machine
-2.) Make changes to files in the repository
-3.) Commit those changes to a new branch named `feature/{githubUsername}`
-4.) Push the branch to the repository
-5.) Open a pull request on [Github](https://github.com/CitadelCS/git-practice)
+1. Clone the repository to their local machine
+2. Make changes to files in the repository
+3. Commit those changes to a new branch named `feature/{githubUsername}`
+4. Push the branch to the repository
+5. Open a pull request on [Github](https://github.com/CitadelCS/git-practice)
 
 ## IDE (IntelliJ)
 
