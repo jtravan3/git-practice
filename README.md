@@ -54,10 +54,11 @@ for `Maven`. You should see the following screen. Make sure that the selected `m
 
 ![Maven Version](images/maven_version.png)
 
-3.) Clone down the repository from Github
+3.) Now that you have your environment setup you need to create a fork of the repository so that you can add changes. First navigate to [https://github.com/jtravan3/git-practice](https://github.com/jtravan3/git-practice)
+and click `Fork` in the top-right of the page. This will create a copy of the repository in your Github account. Then clone down the repository from Github
 
 ```bash
-git clone git@git.github.com:jtravan3/git-practice.git
+git clone git@git.github.com:{yourGithubUsername}/git-practice.git
 ```
 
 4.) Build the project
@@ -121,7 +122,7 @@ git commit -m "I added myself to the CHANGELOG.md"
 git push origin feature/{githubUsername}
 ```
 
-12.) Visit the repository through [Github](https://github.com/jtravan3/git-practice) and open a pull request for merging your feature branch into
+12.) Visit the repository through `https://github.com/{yourGithubUsername}/git-practice` and open a pull request for merging your feature branch into
 the `master` branch. From here, I'll review the pull request to make sure it looks great and then merge it in. You'll be added to the history of the `CHANGELOG.md`!
 
 ### Git GUI (IntelliJ)
@@ -152,7 +153,7 @@ for `Maven`. You should see the following screen. Make sure that the selected `m
 
 ![Maven Version](images/maven_version.png)
 
-5.) Clone down the repository from Github. The easiest way is to open an IntelliJ window and select `File -> New -> Project from Version Control`.
+5.) Fork (see instructions above) and clone down the repository from Github. The easiest way is to open an IntelliJ window and select `File -> New -> Project from Version Control`.
 Paste the Github URL and IntelliJ does the rest.
 
 ![New Project](images/new_project.png)
