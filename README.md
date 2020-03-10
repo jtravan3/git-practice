@@ -1,5 +1,7 @@
 # The best way to 'git' something is by practice!
 
+![Java CI](https://github.com/jtravan3/git-practice/workflows/Java%20CI/badge.svg)
+
 ## Overview
 
 This repository contains the needed base code and instructions for someone who is interested in learning or improving their `git` and Github skills. 
@@ -36,7 +38,8 @@ or if you have a Mac you can use `brew`.
 brew install git
 ```
 
-2.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/) or if you have a Mac you can use `brew`.
+2.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/) or if you have a Mac you can use `brew`. If you don't want to install Maven 
+you can use the `./mvnw` wrapper command instead.
 
 ```bash
 brew install maven
@@ -64,7 +67,7 @@ git clone git@git.github.com:{yourGithubUsername}/git-practice.git
 4.) Build the project
 
 ```bash
-mvn clean install
+./mvnw clean install
 ```
 
 You should be able to run the `HelloWorld` program successfully if you have everything setup correctly.
