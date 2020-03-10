@@ -144,7 +144,8 @@ be configured automatically. If not you'll need to open `Preferences` and search
 
 ![Git Preferences](images/git_preferences.png)
 
-4.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
+4.) Install maven 3.6.0 and Java JDK 11. JDK located at [https://openjdk.java.net/install/](https://openjdk.java.net/install/). If you have a Mac you can use `brew`. If you don't want to install Maven 
+you can use the `./mvnw` wrapper command instead.
 
 ```bash
 brew install maven
