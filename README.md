@@ -122,6 +122,8 @@ git commit -m "I added myself to the CHANGELOG.md"
 11.) Now that all of your changes have been commit to the new branch, push the new branch to the remote repository.
 
 ```bash
+git remote add origin https://github.com/username/repo-name_that_you_fork.git
+
 git push origin feature/{githubUsername}
 ```
 
